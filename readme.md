@@ -5,13 +5,13 @@ A basic worpress theme boilerplate for builing, but not limmited to, corporate w
 This theme is is still in development and is my personal boilerplate for building wordpress themes. feel free to fork this repo to make it your own.
 
 #### NPM
-This theme usses [NPM](https://www.npmjs.com/) for dependancy management.
+This theme uses [NPM](https://www.npmjs.com/) for dependancy management.
 ```console
 $ npm install // to initialize and install the dependancies.
 ```
 
 #### Laravel Mix
-This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory.
+This theme uses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory.
 ```console
 $ npm run dev // Run all Mix tasks.
 ```
@@ -24,7 +24,7 @@ $ npm run watch // Continue running in your terminal and watch all relevant file
 
 
 #### TGM Plugin Activation
-This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
+This theme uses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
 - [Advanced Custom Fields](https://nl.wordpress.org/plugins/advanced-custom-fields/)
 - [Advanced Custom Fields: Flexible Content Field](https://www.advancedcustomfields.com/resources/flexible-content/)
 - [Advanced Custom Fields: Gallery Field](https://www.advancedcustomfields.com/resources/gallery/)
@@ -34,7 +34,7 @@ This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for in
 - [reSmush.it Image Optimizer](https://nl.wordpress.org/plugins/resmushit-image-optimizer/)
 
 #### Service worker
-This theme usses a [Google Workbox](https://developers.google.com/web/tools/workbox/) service worker to leverage browser caching
+This theme uses a [Google Workbox](https://developers.google.com/web/tools/workbox/) service worker to leverage browser caching
 
 #### Functions.php
 The functions.php loads a va79-theme-class.php file packed with all kinds of nice trickery:
