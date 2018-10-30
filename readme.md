@@ -5,24 +5,21 @@ A basic worpress theme boilerplate for builing, but not limmited to, corporate w
 This theme is is still in development and is my personal boilerplate for building wordpress themes. feel free to fork this repo to make it your own.
 
 #### NPM
-This theme usses [NPM](https://www.npmjs.com/) for dependancy management. it installs the following packages:
-- Laravel-mix
-- imagemin-mozjpeg
-- imagemin-webpack-plugin
-- Cssnext
-- Purecss
-- Swiper.js
+This theme usses [NPM](https://www.npmjs.com/) for dependancy management.
+```console
+$ npm install // to download and install the dependancies.
+```
 
 #### Laravel Mix
-This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack.  
+This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory.
 ```console
-$ npm run dev // Run all Mix tasks
+$ npm run dev // Run all Mix tasks.
 ```
 ```console
-$ npm run production // Run all Mix tasks and minify output
+$ npm run production // Run all Mix tasks and minify output.
 ```
 ```console
-$ npm run watch // Continue running in your terminal and watch all relevant files for changes
+$ npm run watch // Continue running in your terminal and watch all relevant files for changes.
 ```
 
 
