@@ -30,7 +30,7 @@ This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for in
 This theme usses a [Google Workbox](https://developers.google.com/web/tools/workbox/) service worker to leverage browser caching
 
 #### Todo
-- Testing the theme
+- Testing the theme for v1.0 tag.
 
 #### Fork / Comments / Suggestions
 Please feel free to fork this repo to make it your own or to send any comments or suggestions my way. Any chance to improve, and there are lots, are always welcome.
