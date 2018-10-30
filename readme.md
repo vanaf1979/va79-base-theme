@@ -12,17 +12,16 @@ $ npm install // to initialize and install the dependancies.
 ```
 
 #### Laravel Mix
-This theme uses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory. (You must run npm install for mix to work.)
+This theme uses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory. (You must run npm install for mix to work.)  
+
+Use the following commands from within your theme directory.
 ```console
-$ cd your/theme/directory
 $ npm run dev // Run all Mix tasks.
 ```
 ```console
-$ cd your/theme/directory
 $ npm run production // Run all Mix tasks and minify output.
 ```
 ```console
-$ cd your/theme/directory
 $ npm run watch // Continue running in your terminal and watch all relevant files for changes.
 ```
 
