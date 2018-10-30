@@ -12,13 +12,13 @@ This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling as
 
 #### TGM Plugin Activation
 This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
-- Advanced Custom Fields
-- Advanced Custom Fields: Flexible Content Field
-- Advanced Custom Fields: Gallery Field
-- Advanced Custom Fields: Repeater Field
-- CMS Tree Page View
-- Cache Enabler
-- reSmush.it Image Optimizer
+- [Advanced Custom Fields](https://nl.wordpress.org/plugins/advanced-custom-fields/)
+- [Advanced Custom Fields: Flexible Content Field](https://www.advancedcustomfields.com/resources/flexible-content/)
+- [Advanced Custom Fields: Gallery Field](https://www.advancedcustomfields.com/resources/gallery/)
+- [Advanced Custom Fields: Repeater Field](https://www.advancedcustomfields.com/resources/repeater/)
+- [CMS Tree Page View](hhttps://nl.wordpress.org/plugins/cms-tree-page-view/)
+- [Cache Enabler](https://nl.wordpress.org/plugins/cache-enabler/)
+- [reSmush.it Image Optimizer](https://nl.wordpress.org/plugins/resmushit-image-optimizer/)
 
 
 #### Todo
