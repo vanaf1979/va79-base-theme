@@ -7,7 +7,7 @@ This theme is is still in development and is my personal boilerplate for buildin
 #### NPM
 This theme usses [NPM](https://www.npmjs.com/) for dependancy management.
 ```console
-$ npm install // to download and install the dependancies.
+$ npm install // to initialize and install the dependancies.
 ```
 
 #### Laravel Mix
