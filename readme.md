@@ -26,6 +26,8 @@ This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for in
 - [Cache Enabler](https://nl.wordpress.org/plugins/cache-enabler/)
 - [reSmush.it Image Optimizer](https://nl.wordpress.org/plugins/resmushit-image-optimizer/)
 
+#### Service worker
+This theme usses a [Google Workbox](https://developers.google.com/web/tools/workbox/) service worker to leverage browser caching
 
 #### Todo
 - Testing the theme
