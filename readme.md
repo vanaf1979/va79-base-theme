@@ -16,7 +16,7 @@ This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for in
 - [Advanced Custom Fields: Flexible Content Field](https://www.advancedcustomfields.com/resources/flexible-content/)
 - [Advanced Custom Fields: Gallery Field](https://www.advancedcustomfields.com/resources/gallery/)
 - [Advanced Custom Fields: Repeater Field](https://www.advancedcustomfields.com/resources/repeater/)
-- [CMS Tree Page View](hhttps://nl.wordpress.org/plugins/cms-tree-page-view/)
+- [CMS Tree Page View](https://nl.wordpress.org/plugins/cms-tree-page-view/)
 - [Cache Enabler](https://nl.wordpress.org/plugins/cache-enabler/)
 - [reSmush.it Image Optimizer](https://nl.wordpress.org/plugins/resmushit-image-optimizer/)
 
