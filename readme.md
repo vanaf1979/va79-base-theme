@@ -19,12 +19,11 @@ Use the following commands from within your theme directory.
 $ npm run dev // Run all Mix tasks.
 ```
 ```console
-$ npm run production // Run all Mix tasks and minify output.
-```
-```console
 $ npm run watch // Continue running in your terminal and watch all relevant files for changes.
 ```
-
+```console
+$ npm run production // Run all Mix tasks and minify output for production ready code.
+```
 
 #### TGM Plugin Activation
 This theme uses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
