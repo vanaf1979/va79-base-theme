@@ -7,18 +7,22 @@ I recoment forking this repo to customize it to your liking.
 #### NPM
 This theme uses [NPM](https://www.npmjs.com/) for dependancy management.
 ```console
+$ cd your/theme/directory
 $ npm install // to initialize and install the dependancies.
 ```
 
 #### Laravel Mix
 This theme uses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. The content of the /src directory will be compiled to the /public directory. (You must run npm install for mix to work.)
 ```console
+$ cd your/theme/directory
 $ npm run dev // Run all Mix tasks.
 ```
 ```console
+$ cd your/theme/directory
 $ npm run production // Run all Mix tasks and minify output.
 ```
 ```console
+$ cd your/theme/directory
 $ npm run watch // Continue running in your terminal and watch all relevant files for changes.
 ```
 
