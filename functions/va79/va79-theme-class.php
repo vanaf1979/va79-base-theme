@@ -84,12 +84,12 @@ class Theme
 		wp_enqueue_style( $this->theme_name  . '-css', get_stylesheet_directory_uri() . '/public/css/header.css', array() , $this->version , 'screen' );
 
 		/** Enqueue header IE 9 css file. **/
-		//wp_enqueue_style( $this->theme_name . '-ie9' , get_stylesheet_directory_uri() . '/public/css/header-ie9.css', array() , $this->version , 'screen' );
-		//wp_style_add_data( $this->theme_name . '-ie9' , 'conditional' , 'IE 9' );
+		wp_enqueue_style( $this->theme_name . '-ie9' , get_stylesheet_directory_uri() . '/public/css/header-ie9.css', array() , $this->version , 'screen' );
+		wp_style_add_data( $this->theme_name . '-ie9' , 'conditional' , 'IE 9' );
 
 		/** Enqueue header lt IE 9 css file. **/
-		//wp_enqueue_style( $this->theme_name . '-lt-ie8' , get_stylesheet_directory_uri() . '/public/css/header-ie8.css', array() , $this->version , 'screen' );
-		//wp_style_add_data( $this->theme_name . '-lt-ie8' , 'conditional' , 'lt IE 9' );
+		wp_enqueue_style( $this->theme_name . '-lt-ie8' , get_stylesheet_directory_uri() . '/public/css/header-ie8.css', array() , $this->version , 'screen' );
+		wp_style_add_data( $this->theme_name . '-lt-ie8' , 'conditional' , 'lt IE 9' );
 	}
 
 
