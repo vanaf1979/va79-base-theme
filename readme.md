@@ -47,6 +47,7 @@ The functions.php loads a va79-theme-class.php file packed with all kinds of nic
 - etc... View the source code its pretty self explanatory.
 
 #### Todo
+- Test the service worker.
 - Testing the theme for v1.0 tag.
 
 #### Fork / Comments / Suggestions
