@@ -3,16 +3,6 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 
-/*
-|--------------------------------------------------------------------------
-| Mix Asset Management
-|--------------------------------------------------------------------------
-|
-| Mix provides a clean, fluent API for defining some Webpack build steps
-| for your Laravel application. By default, we are compiling the Sass
-| file for your application, as well as bundling up your JS files.
-|
-*/
 
 mix.autoload({})
 .js('src/js/app.js', 'public/js/app.js')
@@ -51,6 +41,7 @@ mix.autoload({})
       })
   ]
 });
+
 
 // Full API
 // mix.js(src, output);
