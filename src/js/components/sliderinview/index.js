@@ -1,13 +1,24 @@
-var inView       = require('in-view');
-var Swiper       = require('swiper');
+var Utils = require('../../components/utils/index.js');
+var inView = require('in-view');
+var Swiper = require('swiper');
 
 var sliderInView = {
 
     swiper: null,
+    slider: null,
 
     init: function()
     {
-        this.sliderInView();
+        this.slider = Utils.find( '.main-slider' );
+
+        if( this.slider )
+        {
+            this.sliderInView();
+        }
+        else
+        {
+            console.debug( 'Slider not present on page.' );
+        }
     },
 
 
@@ -31,7 +42,7 @@ var sliderInView = {
     {
         if( ! this.swiper )
         {
-            this.swiper = new Swiper('.swiper-container', {
+            this.swiper = new Swiper( this.slider , {
                 slidesPerView: 1,
                 spaceBetween: 0,
                 effect: 'fade',
@@ -52,6 +63,8 @@ var sliderInView = {
                 },
             });
 
+            
+            // Swiper Events
 
             this.swiper.on('init', () => {
                 console.debug( 'Slider entered the viewport and was initialized' );
@@ -63,6 +76,11 @@ var sliderInView = {
                 console.debug( 'Slider is now showwing slide nr: ' + this.swiper.realIndex );
             });
 
+
+            this.swiper.on('destroy', () => {
+                console.debug( 'Slider left the viewport and was destroyed' );
+            });
+
         }
     },
 
@@ -71,9 +89,8 @@ var sliderInView = {
     {
         if( this.swiper )
         {
-            this.swiper.destroy( true , true );
+            this.swiper.destroy( true , false );
             this.swiper = null;
-            console.debug( 'Slider left the viewport and was destroyed' );
         }
     }
 
