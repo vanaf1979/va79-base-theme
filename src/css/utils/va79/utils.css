@@ -1,0 +1,118 @@
+/*
+-------------------------------------
+--  VA70 UTIL CLASSES
+-------------------------------------
+*/
+
+.va-mas-grid {
+	margin: 1.5em auto;
+  padding: 0;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  font-size: .85em;
+	-moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
+}
+
+
+.va-mas-blok {
+	display: inline-block;
+  padding: 20px;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@media screen and ( max-width: 1280px) {
+  .va-mas-grid {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
+@media screen and ( max-width: 1024px )
+{
+  .va-mas-grid {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media screen and ( max-width: 768px )
+{
+  .va-mas-grid {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media screen and ( max-width: 568px )
+{
+  .va-mas-grid {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+/* - Transition a ellement on style changes. - */
+.va-transition {
+  transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+ }
+/* --  */
+
+/* - Hide ellemnet from the screen. -  */
+.va-kiekeboe { line-height: 0px; text-indent: -9999px }
+.va-kiekeboe-ell { position: absolute; top: -9999px; left: -9999px; }
+/* --  */
+
+/* - Clear all preceding ellements. -  */
+.va-clear { display: block; height: 0px; line-height: 0px; clear: both; }
+/* --  */
+
+/* - Clear a ellement around its childeren. -  */
+.va-clearfix:after { content: ""; display: table; clear: both; }
+/* --  */
+
+/* - Border radius classes -  */
+.va-radius-1  { border-radius: 1px; }
+.va-radius-2  { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.va-radius-3  { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.va-radius-4  { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.va-radius-5  { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.va-radius-6  { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+.va-radius-7  { -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; }
+.va-radius-8  { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+.va-radius-9  { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; }
+.va-radius-10 { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.va-radius-15 { -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
+.va-radius-20 { -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+.va-radius-full { -webkit-border-radius: 10000px; -moz-border-radius: 10000px; border-radius: 10000px; }
+/* --  */
+
+/* - Apply a blur effect -  */
+.va-blur-0 { filter: blur(0px); }
+.va-blur-3 { -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px); filter: blur(3px); }
+/* --  */
+
+/* - Flip collumn order on even/odd -  */
+.va-flipflop { display: flex; }
+.va-flipflop:nth-child(odd) { flex-flow: row-reverse; }
+.va-flipflop:nth-child(even) { flex-flow: row; }
+
+@media screen and ( max-width: 568px )
+{
+  .va-flipflop:nth-child(odd) { flex-flow: column-reverse; }
+  .va-flipflop:nth-child(even) { flex-flow: column-reverse; }
+}
+/* --  */
+
+/*
+-------------------------------------
+*/

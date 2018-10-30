@@ -1,0 +1,384 @@
+
+.va-formwrap {
+  display: block;
+  width: auto;
+  clear: both;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.va-formwrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- Base form ellement -- */
+form { 
+  display: block;
+  border: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+fieldset {
+  display: block;
+  border: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+/* -- Labels -- */
+label {
+  font-size: 1rem;
+  display: inline-block;
+  width: auto;
+  color: #606c76;
+  margin: 0px 0px 4px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+label:after {
+  content: ":";
+}
+
+/* -- Legends -- */
+form legend {
+  display: inline-block;
+  width: 100%;
+  color: #606c76;
+  margin: 15px 0px 15px 0px;
+  padding: 0px 0px 4px 0px;
+  border-bottom: dotted 1px #222222; 
+}
+
+form legend:first-child {
+  margin: 5px 0px 15px 0px;
+}
+
+/* -- Small (used for field hinting) -- */
+form small {
+  display: block;
+  clear: both;
+  font-size: 80%;
+  color: #222222;
+  font-style: italic;
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+  padding: 2px 5px 0px 0px;
+}
+
+/* -- Placeholders -- */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+:-moz-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+::-moz-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* -- Disabled ellements -- */
+:disabled {
+  background: #ffffff;
+  opacity: 0.5;
+}
+
+/* -- Input form ellement -- */
+input {
+  display: inline-block;
+  background: none;
+  border: solid 1px #555555;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="url"],
+input[type="time"],
+input[type="date"],
+input[type="datetime"],
+input[type="number"],
+input[type="month"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 37px;
+  font-size: 14px;
+  color: #aaaaaa;
+  padding: 0px 5px 2px 10px;
+  outline: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 3px 5px 5px 10px;
+  font-size: 14px;
+  color: #aaaaaa;
+  resize: none;
+  background: none;
+  border: solid 1px #555555;
+  margin: 0px 0px 0px 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; 
+}
+
+/* -- Focused form ellements -- */
+textarea:focus, input:focus {
+  border: 1px solid #555555;
+}
+
+/* -- Button ellement -- */
+button,
+input[type="button"],
+input[type="submit"] {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 5px 20px 7px 20px;
+  margin: 0px auto 0px auto;
+  background: none;
+  border: solid 1px #555555;
+  box-sizing: border-box;
+  outline: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+button {
+  color: #222222;
+  border: solid 1px #555555;
+}
+
+/* -- Checkbox ellement -- */
+input[type="checkbox"] {
+  display: block;
+  width: 22px;
+  height: 22px;
+  padding: 0px 0px 0px 0px;
+  margin: 2px 0px 0px 0px;
+}
+
+/* -- Select ellement -- */
+select {
+  display: block;
+  width: auto;
+  height: 30px;
+  padding: 0px 20px 0px 5px;
+  box-sizing: border-box;
+  outline: none;
+  border: solid 1px #222222;
+  background: #ffffff;
+  border-radius: 0px;
+  appearance: none;
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+}
+
+/* hack to prevent dottoed lines after option select in FF */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+.llal {
+  
+}
+
+.llal label {
+  width: 30%;
+  float: left;
+  padding: 6px 0px 0px 0px;
+}
+
+.llal input[type="email"],
+.llal input[type="url"],
+.llal input[type="time"],
+.llal input[type="date"],
+.llal input[type="datetime"],
+.llal input[type="number"],
+.llal input[type="month"],
+.llal input[type="search"],
+.llal input[type="tel"],
+.llal input[type="text"],
+.llal input[type="password"],
+.llal textarea {
+  width: 70%;
+  float: right;
+  padding: 5px 5px 5px 5px;
+}
+
+.llal input[type="checkbox"] {
+  float: left;
+}
+
+.llar {
+
+}
+
+.llar label {
+  display: inline-block;
+  width: 28%;
+  float: left;
+  text-align: right;
+  margin: 6px 2% 0px 0px;
+}
+
+.llar input[type="email"],
+.llar input[type="url"],
+.llar input[type="time"],
+.llar input[type="date"],
+.llar input[type="datetime"],
+.llar input[type="number"],
+.llar input[type="month"],
+.llar input[type="search"],
+.llar input[type="tel"],
+.llar input[type="text"],
+.llar input[type="password"],
+.llar textarea {
+  width: 70%;
+  float: right;
+  padding: 5px 5px 5px 5px;
+}
+
+.llar input[type="checkbox"] {
+  float: left;
+}
+
+
+@media screen and ( max-width: 568px )
+{
+  form {
+    margin: 0px 0px 10px 0px;
+  }
+
+  legend {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #222222;
+    margin: 5px auto 10px auto;
+    padding: 10px 0px 2px 0px;
+    border-bottom: dotted 1px #222222;
+  }
+
+  label,
+  .llal label,
+  .llar label {
+    width: 100%;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .llar label {
+    text-align: left;
+  }
+
+  small {
+    font-size: 100%;
+    text-align: left;
+  }
+
+  input[type="email"],
+  .llal input[type="email"],
+  .llar input[type="email"],
+  input[type="url"],
+  .llal input[type="url"],
+  .llar input[type="url"],
+  input[type="time"],
+  .llal input[type="time"],
+  .llar input[type="time"],
+  input[type="date"],
+  .llal input[type="date"],
+  .llar input[type="date"],
+  input[type="datetime"],
+  .llal input[type="datetime"],
+  .llar input[type="datetime"],
+  input[type="number"],
+  .llal input[type="number"],
+  .llar input[type="number"],
+  input[type="month"],
+  .llal input[type="month"],
+  .llar input[type="month"],
+  input[type="search"],
+  .llal input[type="search"],
+  .llar input[type="search"],
+  input[type="tel"],
+  .llal input[type="tel"],
+  .llar input[type="tel"],
+  input[type="text"],
+  .llal input[type="text"],
+  .llar input[type="text"],
+  input[type="password"],
+  .llal input[type="password"],
+  .llar input[type="password"] {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  textarea,
+  .llal textarea,
+  .llar textarea {
+    width: 100%;
+    height: 120px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  input[type="button"],
+  input[type="submit"],
+  button {
+    height: 40px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  select,
+  .llal select,
+  .llar select {
+    width: 100%;
+    height: 40px; 
+    line-height: 40px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+}

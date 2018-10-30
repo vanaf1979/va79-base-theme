@@ -1,0 +1,33 @@
+{
+  "name": "va79-base-theme",
+  "version": "1.0.0",
+  "description": "Va79 Base theme",
+  "main": "index.js",
+  "keywords": [],
+  "author": {
+    "name" : "Vanaf1979",
+    "email" : "vanaf1979@gmail.com",
+    "url" : "https://vanaf1979.nl"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/vanaf1979/va79-base-theme"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "cssnext": "^1.8.4",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^2.1.14",
+    "purecss": "^1.0.0",
+    "swiper": "^4.4.1"
+  }
+}

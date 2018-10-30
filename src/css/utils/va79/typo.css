@@ -1,0 +1,351 @@
+/*
+--  VA79 Typography
+*/
+html, body {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #363636;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  text-size-adjust: 100%;
+  
+  /*
+  --  Font Smoothing: 
+  --  Can be used by preverence
+  */
+  /*-webkit-font-smoothing: none;*/
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
+  /*-webkit-font-smoothing: antialiased;*/
+
+  /*
+  --  Block user selection: 
+  --  Can be usefull for PWA's
+  */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1, h1 a,
+h2, h2 a,
+h3, h3 a,
+h4, h4 a,
+h5, h5 a,
+h6, h6 a {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 400;
+  color: #363636;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1, h1 a {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+}
+
+h2, h2 a {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+h3, h3 a {
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+h4, h4 a {
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+h5, h5 a {
+  margin-bottom: 0.2rem;
+  font-size: 1.0rem;
+  line-height: 1.2rem;
+}
+
+h6, h6 a {
+  margin-bottom: 0rem;
+  font-size: 0.8rem;
+  line-height: 1.0rem;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: underline;
+}
+
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+  margin-top: 0.5rem;
+}
+
+p {
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px .5rem 0px;
+  font-size: 1em;
+  line-height: 1.6rem;
+}
+
+p a,
+p a:link,
+p a:visited {
+  text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+-- Schema.org spans
+*/
+span[itemprop] {
+  all: inherit;
+  padding: 0px;
+  margin: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+
+img {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.fa {
+  line-height: 100%;
+  vertical-align: middle;
+  //font: normal normal normal 14px/16px FontAwesome;
+}
+
+/*
+-- Wordpress image alignment classes
+*/
+img.alignleft {
+  margin: 0px 10px 10px 0px;
+  float: right;
+}
+
+img.alignright {
+   margin: 0px 0px 10px 10px;
+  float: right;
+}
+
+ul, ol {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-left: 15px;
+  line-height: 1.4em;
+}
+
+ul {
+  list-style: initial;
+}
+
+ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ol:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul.coloured {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-left: 12px;
+  list-style: none;
+  line-height: 1.4em;
+}
+
+ul.coloured li:before {
+  content: "•";
+  display: inline-block;
+  width: 12px;
+  margin: 1px 0px 0px -12px;
+  font-weight: 700;
+  color: lightblue;
+  float: left;
+}
+
+li {
+  line-height: 1.8rem;
+}
+
+section,
+address {
+  font-style: normal;
+  line-height: 1.4rem;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  border-bottom: dotted 1px #bbbbbb;
+}
+
+embed,
+object {
+  outline: 0;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+i,
+em,
+cite {
+  font-style: italic;
+}
+
+s,
+del,
+strike {
+  text-decoration: line-through;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+big {
+  font-size: 1.2rem;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+}
+
+sup,
+sub {
+  height: 0;
+  position: relative;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  vertical-align: baseline;
+}
+
+dfn,
+abbr,
+acronym {
+  border-bottom: 1px dotted #bbbbbb;
+  cursor: help;
+}
+
+pre {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  padding: 15px 15px 15px 15px;
+  overflow: auto;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+  font-family: Courier , monospace;
+  line-height: 1.4em;
+}
+
+aside {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+  line-height: 1.8em
+}
+
+aside.success {
+  border-left: solid 2px green;
+}
+
+aside.warning {
+  border-left: solid 2px yellow;
+}
+
+aside.danger {
+  border-left: solid 2px red;
+}
+
+blockquote {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+  line-height: 1.8em;
+}
+
+blockquote:before {
+  content: '"';
+  font-size: 1.5rem;
+  color: #629f51;
+}
+
+blockquote:after {
+  content: '"';
+  font-size: 1.5rem;
+  color: #629f51;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and ( max-width: 568px )
+{
+  html, body {
+    font-size: 17px;
+  }
+}
