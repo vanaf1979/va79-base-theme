@@ -18,9 +18,10 @@ mix.autoload({})
 .js('src/js/app.js', 'public/js/app.js')
 .js('src/js/sw.js', 'public/js/sw.js')
 .sass('src/css/header.scss', 'public/css/header.css')
+.sass('src/css/footer.scss', 'public/css/footer.css')
 .sass('src/css/style.scss', 'style.css')
 .sass('src/css/rtl.scss', 'rtl.css')
-.sass('src/css/footer.scss', 'footer.css')
+
 .options({
   processCssUrls: false,
   autoprefixer: {
