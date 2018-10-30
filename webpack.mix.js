@@ -13,7 +13,6 @@ mix.autoload({})
 .sass('src/css/footer.scss', 'public/css/footer.css')
 .sass('src/css/style.scss', 'style.css')
 .sass('src/css/rtl.scss', 'rtl.css')
-
 .options({
   processCssUrls: false,
   autoprefixer: {

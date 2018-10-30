@@ -14,7 +14,20 @@ This theme usses [NPM](https://www.npmjs.com/) for dependancy management. it ins
 - Swiper.js
 
 #### Laravel Mix
-This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. Laravel Mix provides a fluent API for defining Webpack build steps for your application using several common CSS and JavaScript pre-processors. Through simple method chaining, you can fluently define your asset pipeline.
+This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack.  
+```console
+$ npm run dev // Run all Mix tasks
+foo
+```
+```console
+$ npm run production // Run all Mix tasks and minify output
+foo
+```
+```console
+$ npm run watch // Continue running in your terminal and watch all relevant files for changes
+foo
+```
+
 
 #### TGM Plugin Activation
 This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
