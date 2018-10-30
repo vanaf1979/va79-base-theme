@@ -2,7 +2,7 @@
 A basic worpress theme boilerplate for builing, but not limmited to, corporate websites. It utilizes [NPM](https://www.npmjs.com/) for dependancy management, [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack, and [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing required plugins within the wordpress admin.  
 
 #### Note
-I recoment forking this repo to customize it to your liking. 
+I recoment forking this repo to customize it to your liking.  
 
 #### NPM
 This theme uses [NPM](https://www.npmjs.com/) for dependancy management.
