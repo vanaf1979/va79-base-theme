@@ -19,13 +19,16 @@
     "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    
+  },
   "devDependencies": {
     "cssnext": "^1.8.4",
     "imagemin-mozjpeg": "^7.0.0",
     "imagemin-webpack-plugin": "^2.3.0",
     "laravel-mix": "^2.1.14",
     "purecss": "^1.0.0",
-    "swiper": "^4.4.1"
+    "swiper": "^4.4.1",
+    "in-view": "^0.6.1"
   }
 }
