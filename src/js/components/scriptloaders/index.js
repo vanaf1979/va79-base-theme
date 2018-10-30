@@ -21,7 +21,7 @@ var scriptLoaders = {
     if ( 'serviceWorker' in navigator )
     {
       window.addEventListener( 'load' , () => {
-        navigator.serviceWorker.register('/wp-content/themes/va79/public/js/sw.js');
+        navigator.serviceWorker.register('/wp-content/themes/va79-base-theme/public/js/sw.js');
         console.log('Service worker registered');
       });
     }
@@ -31,7 +31,7 @@ var scriptLoaders = {
   addFooterCss: function()
   {
     // Add footer css styles.
-    utils.addStyle( '/app/themes/vanaf1979/public/css/footer.css' , 'body' , null );
+    utils.addStyle( '/wp-content/themes/va79-base-theme/public/css/footer.css' , 'body' , null );
   },
 
 
