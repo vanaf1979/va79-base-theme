@@ -14,7 +14,7 @@ License URI:        http://opensource.org/licenses/MIT
 /*
 * Setting up required plugins installation.
 */
-// require_once get_template_directory() . '/functions/tgmpa/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/functions/tgmpa/tgm-plugin-activation.php';
 
 
 /*

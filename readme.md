@@ -11,7 +11,15 @@ This theme usses [NPM](https://www.npmjs.com/) for dependancy management. NPM is
 This theme usses [Laravel Mix](https://laravel.com/docs/5.7/mix) to compiling assets with webpack. Laravel Mix provides a fluent API for defining Webpack build steps for your application using several common CSS and JavaScript pre-processors. Through simple method chaining, you can fluently define your asset pipeline.
 
 #### TGM Plugin Activation
-This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing required plugins within the wordpress admin. TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins). It allows your users to install, update and even automatically activate plugins in singular or bulk fashion using native WordPress classes, functions and interfaces.
+This theme usses [TGM Plugin Activation](http://tgmpluginactivation.com/) for installing the following required plugins:
+- Advanced Custom Fields
+- Advanced Custom Fields: Flexible Content Field
+- Advanced Custom Fields: Gallery Field
+- Advanced Custom Fields: Repeater Field
+- CMS Tree Page View
+- Cache Enabler
+- reSmush.it Image Optimizer
+
 
 #### Todo
 - Testing the theme
