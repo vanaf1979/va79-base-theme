@@ -32,7 +32,7 @@ This theme usses a [Google Workbox](https://developers.google.com/web/tools/work
 #### Functions.php
 The functions.php loads a va79-theme-class.php file packed with all kinds of nice trickery:
 - Clean up the header and footer.
-- Loading header, footer, ie8 and ie9 cssn files. 
+- Loading header, footer, ie8 and ie9 css files. 
 - Loading app.js and html5shiv.js
 - Adds four widget areas for the footer.
 - etc... View the source code its pretty self explanatory.
