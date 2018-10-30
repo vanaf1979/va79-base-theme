@@ -5,10 +5,9 @@ var sliderInView = {
 
     swiper: null,
 
-    init: function( ) {
-
+    init: function()
+    {
         this.sliderInView();
-
     },
 
 
@@ -50,11 +49,6 @@ var sliderInView = {
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
-                },
-                on: {
-                    init: function () {
-                        console.log('swiper initialized');
-                    },
                 },
             });
 
