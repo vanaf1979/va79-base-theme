@@ -35,7 +35,7 @@ The functions.php loads a va79-theme-class.php file packed with all kinds of nic
 - Loading header, footer, ie8 and ie9 cssn files. 
 - Loading app.js and html5shiv.js
 - Adds four widget areas for the footer.
-- etc...
+- etc... View the source code its pretty self explanatory.
 
 #### Todo
 - Testing the theme for v1.0 tag.
