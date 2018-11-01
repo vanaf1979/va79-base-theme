@@ -14,6 +14,8 @@
 
 			<?php wp_page_menu('show_home=Start&menu_class=mainmenu&sort_column=menu_order&exclude=1&depth=1&exclude_tree=1'); ?>
 
+			<button class="toggle-button">☰</button>
+
     	</div>
 	</div>
 

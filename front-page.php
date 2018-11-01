@@ -22,6 +22,8 @@ defined( 'ABSPATH' ) or die( 'Go eat veggies!' );
 
   </div>
 
+  <?php get_template_part('parts/mobilemenu'); ?>
+
   <?php wp_footer(); ?>
 
 </body>

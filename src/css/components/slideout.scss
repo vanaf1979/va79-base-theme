@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 256px;
+  min-height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 0;
+  display: none;
+  background-color: #1D1F20;
+  background-image: linear-gradient(145deg, #111111, #333333);
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-menu-right {
+  right: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+  background-color: #FFF; /* A background-color is required */
+  min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+
+// Menu content
+
+.slideout-menu header {
+  margin: 40px 30px 0px 30px;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  border-bottom: solid 1px #333333;
+}
+  .slideout-menu header h2 {
+    color: #ffffff;
+  }
+
+.slideout-menu section {
+  margin: 20px 0px 0px 0px;
+}
+.slideout-menu section h3 {
+  text-transform: uppercase;
+  color: #85888d;
+  font-weight: 200;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.slideout-menu section {
+  text-align: center;
+}
+
+.slideout-menu section ul {
+  display: block;
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+  .slideout-menu section ul li {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+    .slideout-menu section ul li:hover {
+      background: #111111;
+    }
+    .slideout-menu section ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+      .slideout-menu section ul li a:hover {
+        text-decoration: underline;
+      }
+
+
+.slideout-menu footer {
+  margin: 20px 30px 0px 30px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  border-top: solid 1px #333333;
+  text-align: center;
+  position: relative;
+}
+  .slideout-menu footer ul {
+    display: flex;
+    flex-flow: row;
+    margin: 5px auto 0px auto;
+    padding: 5px 0px 0px 0px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    .slideout-menu footer ul li {
+      display: block;
+      width: 30px;
+      height: 30px;
+      margin: 4px 4px 4px 4px;
+      padding: 0px 0px 0px 0px;
+      color: #323232;
+      background: #ffffff;
+      border-radius: 15px;
+      text-align: center;
+      
+    }
+      .slideout-menu footer ul li a {
+        padding: 2px 0px 0px 0px;
+        color: #323232;
+        font-size: 18px;
+      }
